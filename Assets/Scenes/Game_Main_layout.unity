@@ -16119,12 +16119,10 @@ MonoBehaviour:
   manapuaSprite: {fileID: -6943182097162887575, guid: ba54958918f964497bb10b47953703b6, type: 3}
   gyozaSprite: {fileID: 7363093631039288053, guid: daf4f1596964b42d7a6b81a297ef0b7c, type: 3}
   wontonSprite: {fileID: 7108182954557440693, guid: 9fcea38321f6a47f693a6c204d02a312, type: 3}
-  simpleZoneWidth: 100
-  pleatedZoneWidth: 80
-  crescentZoneWidth: 65
-  simpleSpeed: 100
-  pleatedSpeed: 120
-  crescentSpeed: 140
+  scaleAnimationDuration: 0.3
+  simpleSpeed: 6
+  pleatedSpeed: 8
+  crescentSpeed: 10
   enableDebugControls: 1
 --- !u!1 &2059912771
 GameObject:

@@ -38,9 +38,9 @@ public class DumplingCrimper : MonoBehaviour
     public float scaleAnimationDuration = 0.3f;
 
     [Header("Difficulty Tuning")]
-    public float simpleSpeed = 60f;      // SLOWER: was 100f
-    public float pleatedSpeed = 80f;     // SLOWER: was 120f
-    public float crescentSpeed = 100f;   // SLOWER: was 140f
+    public float simpleSpeed = 6f;      // SLOWER: was 100f
+    public float pleatedSpeed = 8f;     // SLOWER: was 120f
+    public float crescentSpeed = 10f;   // SLOWER: was 140f
 
     [Header("Debug")]
     public bool enableDebugControls = true;
@@ -389,7 +389,7 @@ public class DumplingCrimper : MonoBehaviour
         {
             Debug.Log($"✅ Perfect Hit! ({currentClicks + 1}/{clicksNeeded})");
             currentClicks++;
-            currentSpeed += 15f; // Reduced speed increase
+            currentSpeed += 2f; // Reduced speed increase
             
             // Start the crimp animation
             StartCoroutine(PlayCrimpAnimation());
